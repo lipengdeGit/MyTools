@@ -1,11 +1,18 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
     compileSdk 32
 
+    kapt {
+        arguments {
+            arg("AROUTER_MODULE_NAME", project.getName())
+        }
+    }
+    
     defaultConfig {
         applicationId "com.sendinfo.mytools"
         minSdk 21
