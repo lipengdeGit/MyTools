@@ -21,6 +21,12 @@
 - lottie
 
 ### 三、app主要功能介绍：
+
+1 自定义控件   banner计数器 底部点自定义
+  webView 自定义 activity
+                fragment
+
+
 1. BActivity沉浸式简易封装
 1. mvp示例、网络请求调用示例
 1. webView使用示例

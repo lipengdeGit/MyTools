@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Button 切换不同状态 -->
+    <declare-styleable name="StateButton">
+        <!--text color-->
+        <attr name="normalTextColor" format="color|reference"/>
+        <attr name="pressedTextColor" format="color|reference"/>
+        <attr name="unableTextColor" format="color|reference"/>
+        <!--stroke width and color, dash width, dash gap-->
+        <attr name="strokeDashWidth" format="dimension|reference"/>
+        <attr name="strokeDashGap" format="dimension|reference"/>
+        <attr name="normalStrokeWidth" format="dimension|reference"/>
+        <attr name="pressedStrokeWidth" format="dimension|reference"/>
+        <attr name="unableStrokeWidth" format="dimension|reference"/>
+        <attr name="normalStrokeColor" format="color|reference"/>
+        <attr name="pressedStrokeColor" format="color|reference"/>
+        <attr name="unableStrokeColor" format="color|reference"/>
+        <!--background color-->
+        <attr name="normalBackgroundColor" format="color|reference"/>
+        <attr name="pressedBackgroundColor" format="color|reference"/>
+        <attr name="unableBackgroundColor" format="color|reference"/>
+        <!--background radius-->
+        <attr name="radius" format="dimension|reference"/>
+        <attr name="round" format="boolean|reference"/>
+        <!--animation duration-->
+        <attr name="animationDuration" format="integer|reference"/>
+    </declare-styleable>
+
+    <!-- ImageView 切换不同状态 -->
+    <declare-styleable name="StateImageView">
+        <attr name="normalBackground" format="color|reference"/>
+        <attr name="pressedBackground" format="color|reference"/>
+        <attr name="unableBackground" format="color|reference"/>
+        <!--animation duration-->
+        <attr name="AnimationDuration" format="integer|reference"/>
+    </declare-styleable>
+
+
+    <!-- SweetAlertDialog -->
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="SAD_rollType"
+              format="enum">
+            <enum name="x"
+                  value="0"/>
+            <enum name="y"
+                  value="1"/>
+            <enum name="z"
+                  value="2"/>
+        </attr>
+        <attr name="SAD_fromDeg"
+              format="float"/>
+        <attr name="SAD_toDeg"
+              format="float"/>
+        <attr name="SAD_pivotX"
+              format="fraction"/>
+        <attr name="SAD_pivotY"
+              format="fraction"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressWheel">
+        <attr name="SAD_matProg_progressIndeterminate"
+              format="boolean"/>
+        <attr name="SAD_matProg_barColor"
+              format="color"/>
+        <attr name="SAD_matProg_rimColor"
+              format="color"/>
+        <attr name="SAD_matProg_rimWidth"
+              format="dimension"/>
+        <attr name="SAD_matProg_spinSpeed"
+              format="float"/>
+        <attr name="SAD_matProg_barSpinCycleTime"
+              format="integer"/>
+        <attr name="SAD_matProg_circleRadius"
+              format="dimension"/>
+        <attr name="SAD_matProg_fillRadius"
+              format="boolean"/>
+        <attr name="SAD_matProg_barWidth"
+              format="dimension"/>
+        <attr name="SAD_matProg_linearProgress"
+              format="boolean"/>
+    </declare-styleable>
+</resources>
